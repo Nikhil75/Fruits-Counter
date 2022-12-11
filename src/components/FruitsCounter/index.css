@@ -1,0 +1,53 @@
+* {
+  font-family: 'Roboto';
+}
+body {
+  margin: 0px;
+}
+.fruits-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fruits-counter-container {
+  height: 70vh;
+  background-color: white;
+  border-radius: 8px;
+  width: 60%;
+}
+.text {
+  text-align: center;
+  font-size: 50px;
+}
+.mango-counter {
+  color: #ffd569;
+}
+.banana-counter {
+  color: #ffd569;
+}
+
+.mango {
+  height: 30vh;
+}
+.banana {
+  height: 30vh;
+  margin-left: 70px;
+}
+.fruites-images-container {
+  display: flex;
+  margin-left: 100px;
+}
+.counter-button {
+  display: flex;
+  margin: 80px;
+}
+.Eat-counter {
+  color: white;
+  border-radius: 8px;
+  background-color: #007bff;
+  border-width: 0px;
+  height: 4vh;
+}
